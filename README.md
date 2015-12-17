@@ -1,5 +1,5 @@
-# descidamortal
-MiniGame - Bukkit - Criado por zDubsCrazy em Maio de 2015
+# DescidaMortal
+MiniGame DescidaMortal - Bukkit - Criado por zDubsCrazy em Maio de 2015
 
 OpenSource - 17/12/2015
 
