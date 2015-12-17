@@ -1,0 +1,79 @@
+# Descida Mortal - Plugin criado por zDubsCrazy #
+# Tópico: http://is.gd/descidamortal
+# Siga todos os passos e configure corretamente #
+
+# GERAL #
+time: 300
+min-players: 4
+max-players: 15
+iniciar-em: 30
+countdown: 10
+win-block: 57
+pvp: false
+bar: '&e&lTempo Restante: &c&l@tempo'
+premio: 5000
+
+# MENSAGENS #
+no-permission: '&3[Descida Mortal] &cVoce nao possui permissao.'
+arena-jogando: '&3[Descida Mortal] &cEsta arena ja esta jogando. Aguarde...'
+arena-lotada: '&3[Descida Mortal] &cEsta arena ja esta cheia. Tente outra.'
+dentro-arena: '&3[Descida Mortal] &cVoce ja esta em uma arena.'
+entrou-partida: '&3[Descida Mortal] &f@player &6se juntou a partida (&f@num/@max&6)'
+saiu-partida: '&3[Descida Mortal] &f@player &6abandonou a partida (&f@num/@max&6)'
+morreu: '&3[Descida Mortal] &f@player &cnao conseguiu descer ate o fim!'
+partida-iniciada: '&3[Descida Mortal] &aPartida iniciada. Boa Sorte! =)'
+iniciando-em: '&3[Descida Mortal] &6Iniciando partida em &f@tempo &6segundos...'
+vencedor: '&3[Descida Mortal] &4@player &dvenceu a partida! Parabens! =)'
+sem-vencedores: '&3[Descida Mortal] &4A partida terminou sem vencedores.'
+sem-pvp: '&3[Descida Mortal] &cO PvP esta desativado.'
+insuficientes: '&3[Descida Mortal] &5Players insuficientes para iniciar!'
+escolheu-kit: '&3[Descida Mortal] &aVoce selecionou o kit: &c@kit'
+abandonou: '&3[Descida Mortal] &cVoce abandonou a partida!'
+sem-comandos: '&3[Descida Mortal] &cProibido comandos dentro da arena.'
+nenhuma-partida: '&3[Descida Mortal] &cVoce nao esta em uma partida.'
+
+# PLACA #
+format: 
+- '&9&l[DM]'
+- '&f&l@arena'
+- '&0&l@num/@max'
+- '@state'
+aguardando: '&a&lAGUARDANDO'
+jogando: '&c&lJOGANDO'
+
+# SCOREBOARD #
+title: '&b&lAltura'
+
+# ITENS #
+equipment:
+  helmet:
+    id: 0
+    enchants: []
+  chestplate:
+    id: 0
+    enchants: []
+  leggings:
+    id: 0
+    enchants: []
+  boots:
+    id: 309
+    enchants: []
+items:
+- 364 10
+
+# KITS #
+inv-slots: 9
+inv-title: '&9&lSelecione seu Kit'
+
+# ITENS GERAIS #
+kit-selector:
+  id: 339
+  title: '&6Selecionar Kit'
+  lore:
+  - '&7Clique para selecionar um kit'
+  - '&7para jogar esta partida'
+exit-arena:
+  id: 331
+  title: '&cAbandonar Partida'
+  lore:
+  - '&7Clique para sair da partida'

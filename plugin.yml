@@ -1,0 +1,7 @@
+name: DescidaMortal
+version: 1.0.0
+main: descidamortal.DescidaMortal
+author: zDubsCrazy
+depend: [BarAPI]
+commands:
+  dm:
