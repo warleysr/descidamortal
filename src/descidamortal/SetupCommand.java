@@ -21,7 +21,7 @@ public class SetupCommand implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String cmd, String[] args) {
 		if(!(sender instanceof Player)) {
-			sender.sendMessage("[Descida Mortal] Comando apenas para players in-game.");
+			sender.sendMessage("[Descida Mortal] Commando apenas para players in-game.");
 			return true;
 		}
 		Player p = (Player)sender;
@@ -30,7 +30,7 @@ public class SetupCommand implements CommandExecutor {
 				if(p.hasPermission("dm.admin")) {
 				usage(p, cmd);
 				} else {
-					p.sendMessage("§eUso correto: §7/dm sair");
+					p.sendMessage("ï¿½eUso correto: ï¿½7/dm sair");
 				}
 				return true;
 			} else if(args.length == 1) {
@@ -53,7 +53,7 @@ public class SetupCommand implements CommandExecutor {
 					usage(p, cmd);
 					} else {
 						p.sendMessage(" ");
-						p.sendMessage("§eUso correto: §7/dm sair");
+						p.sendMessage("ï¿½eUso correto: ï¿½7/dm sair");
 						p.sendMessage(" ");
 					}
 				}
@@ -70,7 +70,7 @@ public class SetupCommand implements CommandExecutor {
 						if(!(f.exists())) {
 							try {
 								f.createNewFile();
-								p.sendMessage("§3[Descida Mortal] §6A arena §f" + arena + " §6nao existia. Criada com sucesso.");
+								p.sendMessage("ï¿½3[Descida Mortal] ï¿½6A arena ï¿½f" + arena + " ï¿½6nao existia. Criada com sucesso.");
 							} catch (IOException e) {
 								e.printStackTrace();
 							}
@@ -83,7 +83,7 @@ public class SetupCommand implements CommandExecutor {
 						} catch (IOException e) {
 							e.printStackTrace();
 						}
-						p.sendMessage("§3[Descida Mortal] §fLobby §ada arena §f" + arena + " §adefinido com sucesso.");
+						p.sendMessage("ï¿½3[Descida Mortal] ï¿½fLobby ï¿½ada arena ï¿½f" + arena + " ï¿½adefinido com sucesso.");
 					} else if(args[2].equalsIgnoreCase("tl")) {
 						fc.set("teleport-location", p.getLocation().getWorld().getName() + ";" + p.getLocation().getBlockX() + ";" + p.getLocation().getBlockY() + ";" + p.getLocation().getBlockZ() + ";" + p.getLocation().getPitch() + ";" + p.getLocation().getYaw());
 						try {
@@ -91,7 +91,7 @@ public class SetupCommand implements CommandExecutor {
 						} catch (IOException e) {
 							e.printStackTrace();
 						}
-						p.sendMessage("§3[Descida Mortal] §fInicio §ada arena §f" + arena + " §adefinido com sucesso.");
+						p.sendMessage("ï¿½3[Descida Mortal] ï¿½fInicio ï¿½ada arena ï¿½f" + arena + " ï¿½adefinido com sucesso.");
 					} else if(args[2].equalsIgnoreCase("el")) {
 						fc.set("exit-location", p.getLocation().getWorld().getName() + ";" + p.getLocation().getBlockX() + ";" + p.getLocation().getBlockY() + ";" + p.getLocation().getBlockZ() + ";" + p.getLocation().getPitch() + ";" + p.getLocation().getYaw());
 						try {
@@ -99,7 +99,7 @@ public class SetupCommand implements CommandExecutor {
 						} catch (IOException e) {
 							e.printStackTrace();
 						}
-						p.sendMessage("§3[Descida Mortal] §fSaida §ada arena §f" + arena + " §adefinido com sucesso.");
+						p.sendMessage("ï¿½3[Descida Mortal] ï¿½fSaida ï¿½ada arena ï¿½f" + arena + " ï¿½adefinido com sucesso.");
 					}
 					if(DescidaMortal.isValidArena(arena)) {
 						DescidaMortal.reloadArenas();
@@ -119,10 +119,10 @@ public class SetupCommand implements CommandExecutor {
 		switch(cmd) {
 		case "dm":
 			p.sendMessage(" ");
-			p.sendMessage("§e======= Uso Correto =======");
-			p.sendMessage(" §7/dm set §f<arena> §7<ll, tl, el>");
-			p.sendMessage(" §bll §7= Lobby §btl §7= Inicio §bel §7= Saida");
-			p.sendMessage("§e=========================");
+			p.sendMessage("ï¿½e======= Uso Correto =======");
+			p.sendMessage(" ï¿½7/dm set ï¿½f<arena> ï¿½7<ll, tl, el>");
+			p.sendMessage(" ï¿½bll ï¿½7= Lobby ï¿½btl ï¿½7= Inicio ï¿½bel ï¿½7= Saida");
+			p.sendMessage("ï¿½e=========================");
 			p.sendMessage(" ");
 			break;
 		}

@@ -27,7 +27,7 @@ public class ArenaListener implements Listener {
 	private String sem_pvp = cm.getConfigMessage("sem-pvp");
 	private String saiu = cm.getConfigMessage("saiu-partida");
 	private String morreu = cm.getConfigMessage("morreu");
-	private String sem_comandos = cm.getConfigMessage("sem-comandos");
+	private String sem_comandos = cm.getConfigMessage("sem-commandos");
 	
 	@EventHandler
 	public void onLeaveArena(PlayerQuitEvent e) {

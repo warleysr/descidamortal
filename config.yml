@@ -29,7 +29,7 @@ sem-pvp: '&3[Descida Mortal] &cO PvP esta desativado.'
 insuficientes: '&3[Descida Mortal] &5Players insuficientes para iniciar!'
 escolheu-kit: '&3[Descida Mortal] &aVoce selecionou o kit: &c@kit'
 abandonou: '&3[Descida Mortal] &cVoce abandonou a partida!'
-sem-comandos: '&3[Descida Mortal] &cProibido comandos dentro da arena.'
+sem-commandos: '&3[Descida Mortal] &cProibido commandos dentro da arena.'
 nenhuma-partida: '&3[Descida Mortal] &cVoce nao esta em uma partida.'
 
 # PLACA #
