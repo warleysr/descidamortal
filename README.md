@@ -1,6 +1,6 @@
-# DescidaMortal
-MiniGame DescidaMortal - Bukkit - Criado por zDubsCrazy em Maio de 2015
+# Descida Mortal
+A minigame plugin for Bukkit (Minecraft Servers)
 
-OpenSource - 17/12/2015
+Video: https://www.youtube.com/watch?v=VQcsgnIa8cs
 
-Dê os devidos créditos.
+WebSite: http://gamersboard.com.br/topic/4988-minigame-descida-mortal-v10/
